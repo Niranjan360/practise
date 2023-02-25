@@ -1,2 +1,11 @@
-1) git init
-2) 
+
+priyanka.km@testyantra.com
+
+1 day git session
+
+2 day react redux
+    1st pg link : http://vpaste.net/v8k9I
+    2nd pg link : http://vpaste.net/Ik4ww 
+    note link   : https://www.clariontech.com/blog/mvc-vs-flux-vs-redux-the-real-differences Feb 20, 6:06 PM
+
+ 

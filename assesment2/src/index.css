@@ -1,0 +1,189 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+nav{
+  background-color: black;
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+nav a{
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.stickynote{
+  background-color: rgba(197, 197, 197, 0.447);
+  width: 90vw;
+  height: auto;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+  display: flex;
+}
+.form-container{
+  background-color: white;
+  width: 40%;
+  height: 200px;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+}
+.stickynote input{
+  display: block;
+  width: 50%;
+  height: 25px;
+}
+.user-container{
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+.user-detail{
+  color: black;
+  text-shadow: 0px 0px 5px white;
+  display: block;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transform: rotate(-5deg );
+  transition: 0.3s;
+  border: solid 0.5px black;
+}
+.user-detail::before{
+  content: "";
+  display: inline-block;
+  background-color: black;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  position: relative;
+  left: 170px;
+}
+.user-detail:hover{
+  transform:translate(-5%,-5%) rotate(0deg);
+  transition: 0.3s;
+}
+
+.home{
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.home a{
+  display: block;
+  border: solid 2px;
+  border-color: rgb(245, 165, 46);
+  color: rgb(85, 84, 84);
+  text-decoration: none;
+  padding: 20px;
+  margin: 60px 0px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.home a:hover{
+  transform: translate(-7%,-7%);
+  transition: 0.3s;
+  box-shadow: 10px 10px 20px rgba(128, 128, 128, 0.678);
+}
+
+.home a div{
+  text-align: center;
+}
+
+
+
+
+
+
+.trainer,.admin{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.trainer-sigup>button , .admin-sigup>button {
+  font-size: 25px;
+  padding: 10px 30px;
+  margin: 0px 20px;
+  border: solid 2px rgb(245, 165, 46);
+  border-radius: 30px;
+}
+.trainer-sigin>button , .admin-sigin>button{
+  font-size: 25px;
+  padding: 10px 30px ;
+  border: solid 2px rgb(245, 165, 46);
+  border-radius: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.register{
+  background-color: rgba(197, 197, 197, 0.447);
+  width: 30vw;
+  height: auto;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+.register form{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.register form input {
+  width: 60%;
+  height: 22px;
+  margin: 5px 0px;
+  border: solid 0.5px black;
+  border-radius: 3px;
+}
+.register form textarea {
+  height: 42px;
+  margin: 5px 0px;
+  border: solid 0.5px black;
+  border-radius: 3px;
+}
+.register form input[type="checkbox"]{
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+}
+.register form input[type="submit"]{
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  padding: 8px;
+  height: auto;
+}
